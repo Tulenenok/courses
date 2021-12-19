@@ -1,0 +1,151 @@
+/*
+@font-face {
+    font-family: 'Pacifico';
+    src: local('Pacifico'),
+            url(/fonts/Pacifico-Regular.ttf) format('ttf');
+}
+*/
+
+@font-face {
+    font-family: 'Inconsolata', monospace;
+    src: local('Inconsolata'),
+            url(/fonts/Inconsolata-VariableFont_wdth,wght.ttf) format('ttf');
+}
+
+QDialog#catform, QDialog#regform
+{
+    background-color: rgb(20, 20, 20);
+}
+
+QFrame#authFrame, QFrame#catFrame, QFrame#regFrame, QFrame#quoteFrame
+{
+    background-color: none;
+    border: 10px solid rgb(128, 35, 243);
+    border-radius: 6px;
+}
+
+QLabel#taskLabel_1, QFrame#taskLabel_2, QFrame#taskLabel_3, QLabel#numberLabel_1, QFrame#numberLabel_2, QFrame#numberLabel_3
+{
+    padding-top: 0;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    background-color: none;
+    border: 2px solid rgb(128, 35, 243);
+    border-radius: 6px;
+}
+
+QLabel#numberLabel_1, QFrame#numberLabel_2, QFrame#numberLabel_3
+{
+    padding-left: 8px;
+}
+
+QPushButton
+{
+    font-family: 'Inconsolata';
+    color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.02, y2:0.0170455, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 199));
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+QPushButton:hover
+{
+    border: 2px solid qlineargradient(spread:pad, x1:0, y1:0, x2:0.02, y2:0.0170455, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 199));
+    color: white;
+}
+
+QLineEdit
+{
+    font-family: 'Inconsolata';
+    font-size: 17px;
+    background-color: none;
+    border: 2px solid rgb(128, 35, 243);
+    border-radius: 8px;
+    padding-left: 5px;
+    color: white;
+}
+
+QLabel
+{
+    font-family: 'Inconsolata';
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    background-color:rgb(20, 20, 20);
+    color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.02, y2:0.0170455, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 199));
+}
+
+QLabel#quote
+{
+    padding: 0;
+    font-size: 22px;
+}
+
+QLabel#image
+{
+    padding: 0;
+    border: 12px solid qlineargradient(spread:pad, x1:0, y1:0, x2:0.02, y2:0.0170455, stop:0 rgba(0, 0, 0, 77), stop:1 rgba(255, 255, 255, 199));
+}
+
+QLabel#sorryLabel, QLabel#cat
+{
+    padding: 0;
+}
+
+QLabel#loginLabel, QLabel#passwordLabel
+{
+    padding: 0 0 0 8px;
+    border: 2px solid rgb(128, 35, 243);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+QLabel#profileImg, QLabel#profileImg_2
+{
+    padding: 0;
+    background-color:green;
+    border:none;
+    border-radius: 50%;
+}
+
+QLabel#profileImg_div
+{
+    padding: 0;
+    border:2px solid rgb(128, 35, 243);
+    border-radius: 25%;
+}
+
+QLabel#userNameLable
+{
+    padding: 0;
+    font-size: 25px;
+}
+
+QLabel#userNameLable:hover, QLabel#quote:hover
+{
+    color:white;
+}
+
+QLabel#SetLabel
+{
+    color:white;
+    font-size: 30px;
+}
+
+QLine
+{
+    border: 4px solid green;
+}
+
+QPushButton#settingsButton
+{
+    background-color:none;
+    border:none;
+}
+
+QPushButton#settingsButton:hover
+{
+    background-color:none;
+    border:2px solid qlineargradient(spread:pad, x1:0.239, y1:0.210636, x2:1, y2:1, stop:1 rgba(100, 0, 221, 79));
+}

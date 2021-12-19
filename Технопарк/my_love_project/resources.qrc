@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.css</file>
+        <file>fonts/Pacifico-Regular.ttf</file>
+        <file>img/1.jpg</file>
+        <file>img/cats/1.jpg</file>
+        <file>img/cats/2.jpg</file>
+        <file>img/heart.jpg</file>
+        <file>img/heart.png</file>
+        <file>img/cats/3.jpg</file>
+        <file>img/cats/4.jpg</file>
+        <file>img/cats/5.jpg</file>
+        <file>img/cats/6.webp</file>
+        <file>img/cats/7.png</file>
+        <file>img/settings.png</file>
+        <file>img/cats/8.jpg</file>
+        <file>img/cats/10.jpg</file>
+        <file>fonts/Inconsolata-VariableFont_wdth,wght.ttf</file>
+    </qresource>
+</RCC>
